@@ -84,7 +84,50 @@
 				"name": "P&O Ferries",
 				"logo": "logo-poferries.png",
 				"url": "http://www.poferries.com/en"
+			},
+
+
+			{
+				"name": "Burton",
+				"logo": "logo-burton.png",
+				"url": "http://www.burton.co.uk/"
+			},
+			{
+				"name": "Dorothy Perkins",
+				"logo": "logo-dorothyperkins.png",
+				"url": "http://www.dorothyperkins.com/"
+			},
+			{
+				"name": "Evans",
+				"logo": "logo-evans.png",
+				"url": "http://www.evans.co.uk/"
+			},
+			{
+				"name": "Miss Selfridge",
+				"logo": "logo-missselfridge.png",
+				"url": "http://www.missselfridge.com/"
+			},
+			{
+				"name": "Outfit",
+				"logo": "logo-outfit.png",
+				"url": "hhttp://www.outfitfashion.com/"
+			},
+			{
+				"name": "Topman",
+				"logo": "logo-topman.png",
+				"url": "http://www.topman.com/"
+			},
+			{
+				"name": "Topshop",
+				"logo": "logo-topshop.png",
+				"url": "http://www.topshop.com/"
+			},
+			{
+				"name": "Wallis",
+				"logo": "logo-wallis.png",
+				"url": "http://www.wallis.co.uk/"
 			}
+
 		]
 	}
 }
