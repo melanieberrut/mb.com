@@ -21,9 +21,10 @@
 
 			<p>Currently based in London (UK), I have over 7 years of experience hand coding HTML/CSS pages for large scale websites, and mainly eCommerce</p>
 			<p>Web developement is my thing. Have a look at my <a href="/#/portfolio">portfolio</a>, or drop me a <a href="/#/contact">message</a></p>
+			<p>Oh, one thing to know, is that I love giraffes.</p>
 
 			<ul class="row tools list-inline">
-				<li class=""  data-animation="am-flip-x" data-ng-repeat="tool in tools.all" bs-tooltip="tool.name">
+				<li class="" data-animation="am-flip-x" data-ng-repeat="tool in tools.all" bs-tooltip="tool.name">
 					<img class="img-responsive col-xs-4 col-md-3 col-lg-2" data-ng-src="{{imagePath}}{{tool.image}}" alt="{{tool.name}} logo">
 				</li>
 			</ul>
@@ -42,7 +43,7 @@
 			<div class="row">
 				<ul class="clients list-inline">
 					<li data-ng-repeat="client in clients.all">
-						<a href="{{client.url}}" target="_blank" class="name">
+						<a class="name" href="{{client.url}}">
 							<span class="logo"><img class="img-fluid" data-ng-src="{{imagePath}}{{client.logo}}" alt="{{client.name}} logo"></span>
 							<span class="name">{{client.name}}</span>
 						</a>

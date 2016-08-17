@@ -48,42 +48,42 @@
 			{
 				"name": "British American Tobacco",
 				"logo": "logo-bat.png",
-				"url": "​https://www.mybat.com.au/"
+				"url": "http://www.mybat.com.au"
 			},
 			{
 				"name": "Capita",
 				"logo": "logo-capita.png",
-				"url": ""
+				"url": "http://www.capita.com/"
 			},
 			{
 				"name": "Costco Taiwan",
 				"logo": "logo-costco-tw.png",
-				"url": "​https://www.costco.com.tw/"
+				"url": "http://www.costco.com.tw/"
 			},
 			{
 				"name": "Costco UK / Mexico",
 				"logo": "logo-costco-ukmx.png",
-				"url": "​h​ttp://www.costco.co.uk/"
+				"url": "http://www.costco.co.uk"
 			},
 			{
 				"name": "Delhaize Group",
 				"logo": "logo-delhaize.png",
-				"url": "​​ttp://shop.delhaize.be/"
+				"url": "http://shop.delhaize.be"
 			},
 			{
 				"name": "Iceland Groceries",
 				"logo": "logo-iceland.png",
-				"url": "​​ttp://www.iceland.co.uk/"
+				"url": "http://www.iceland.co.uk"
 			},
 			{
 				"name": "Phones 4 U / Dial a Phone",
 				"logo": "logo-phones4u.png",
-				"url": "​http://www.phones4u.co.uk/"
+				"url": "http://www.phones4u.co.uk"
 			},
 			{
 				"name": "P&O Ferries",
 				"logo": "logo-poferries.png",
-				"url": "​​ttp://www.poferries.com/en/"
+				"url": "http://www.poferries.com/en"
 			}
 		]
 	}

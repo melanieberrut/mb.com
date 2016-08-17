@@ -12,10 +12,7 @@ angular.module('melanieberrutApp')
 	.controller('HomeCtrl', ['$scope', function($scope) {
 
 		$scope.imagePath =  $scope.imagePath + 'tools/';
-
 		$scope.tools = $scope.initialData.tools;
 
-
-		$scope.tooltip = {title:'My title'};
 	}]);
 

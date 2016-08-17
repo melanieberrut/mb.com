@@ -13,17 +13,18 @@ angular
   'ngAnimate',
   'ngResource',
   'ngRoute',
+  'ui.router',
   'ngSanitize',
   'ngTouch'
   ])
-  .config(function ($routeProvider, $locationProvider) {
-  $routeProvider
-    .when('/', {
-    templateUrl: 'views/home.html'
-    })
-    .otherwise({
-    redirectTo: '/'
+  .config(function ($stateProvider, $urlRouterProvider) {
+
+    $urlRouterProvider.otherwise('/');
+    $stateProvider
+     .state('home', {
+        url: '/',
+        templateUrl: 'views/home.html'
+      });
+      // use the HTML5 History API
+     // $locationProvider.html5Mode(false);
     });
-    // use the HTML5 History API
-   $locationProvider.html5Mode(true);
-  });
