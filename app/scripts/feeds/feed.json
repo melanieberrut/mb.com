@@ -1,0 +1,90 @@
+{
+	"tools": {
+		"all": [
+			{
+				"name": "bower",
+				"image": "logo-bower.png"
+			},
+			{
+				"name": "git",
+				"image": "logo-git.png"
+			},
+			{
+				"name": "grunt",
+				"image": "logo-grunt.png"
+			},
+			{
+				"name": "hybris",
+				"image": "logo-hybris.png"
+			},
+			{
+				"name": "jira",
+				"image": "logo-jira.png"
+			},
+			{
+				"name": "less",
+				"image": "logo-less.png"
+			},
+			{
+				"name": "npm",
+				"image": "logo-npm.png"
+			},
+			{
+				"name": "sass",
+				"image": "logo-sass.png"
+			},
+			{
+				"name": "svn",
+				"image": "logo-svn.png"
+			},
+			{
+				"name": "websphere",
+				"image": "logo-websphere.png"
+			}
+		]
+	},
+	"clients": {
+		"all": [
+			{
+				"name": "British American Tobacco",
+				"logo": "logo-bat.png",
+				"url": "​https://www.mybat.com.au/"
+			},
+			{
+				"name": "Capita",
+				"logo": "logo-capita.png",
+				"url": ""
+			},
+			{
+				"name": "Costco Taiwan",
+				"logo": "logo-costco-tw.png",
+				"url": "​https://www.costco.com.tw/"
+			},
+			{
+				"name": "Costco UK / Mexico",
+				"logo": "logo-costco-ukmx.png",
+				"url": "​h​ttp://www.costco.co.uk/"
+			},
+			{
+				"name": "Delhaize Group",
+				"logo": "logo-delhaize.png",
+				"url": "​​ttp://shop.delhaize.be/"
+			},
+			{
+				"name": "Iceland Groceries",
+				"logo": "logo-iceland.png",
+				"url": "​​ttp://www.iceland.co.uk/"
+			},
+			{
+				"name": "Phones 4 U / Dial a Phone",
+				"logo": "logo-phones4u.png",
+				"url": "​http://www.phones4u.co.uk/"
+			},
+			{
+				"name": "P&O Ferries",
+				"logo": "logo-poferries.png",
+				"url": "​​ttp://www.poferries.com/en/"
+			}
+		]
+	}
+}

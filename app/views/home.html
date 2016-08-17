@@ -1,0 +1,92 @@
+<div class="content-box">
+	<div class="container">
+		<div class="hero">
+
+			<h2>
+				<span class="txt-accent-1">Melanie Berrut</span><br>
+				<span class="txt-accent-2">Front End Developer</span>
+			</h2>
+		</div>
+	</div>
+</div>
+
+<div class="content-box bg-white" id="about" data-ng-controller="HomeCtrl">
+
+	<div class="container">
+		<section>
+			<header>
+				<div class="round-box primary"><span class="fa fa-cogs"></span></div>
+				<h3>About me</h3>
+			</header>
+
+			<p>Currently based in London (UK), I have over 7 years of experience hand coding HTML/CSS pages for large scale websites, and mainly eCommerce</p>
+			<p>Web developement is my thing. Have a look at my <a href="/#/portfolio">portfolio</a>, or drop me a <a href="/#/contact">message</a></p>
+
+			<ul class="row tools list-inline">
+				<li class=""  data-animation="am-flip-x" data-ng-repeat="tool in tools.all" bs-tooltip="tool.name">
+					<img class="img-responsive col-xs-4 col-md-3 col-lg-2" data-ng-src="{{imagePath}}{{tool.image}}" alt="{{tool.name}} logo">
+				</li>
+			</ul>
+		</section>
+	</div>
+</div>
+
+<div class="content-box bg-gray" id="portfolio" data-ng-controller="PortfolioCtrl">
+	<div class="container">
+		<section>
+			<header>
+				<div class="round-box primary"><span class="fa fa-folder-open"></span></div>
+				<h3>Portfolio</h3>
+			</header>
+			<p>A list of clients for which I've done some work for:</p>
+			<div class="row">
+				<ul class="clients list-inline">
+					<li data-ng-repeat="client in clients.all">
+						<a href="{{client.url}}" target="_blank" class="name">
+							<span class="logo"><img class="img-fluid" data-ng-src="{{imagePath}}{{client.logo}}" alt="{{client.name}} logo"></span>
+							<span class="name">{{client.name}}</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+</div>
+
+<div class="content-box bg-white" id="contact">
+	<div class="container">
+		<section>
+			<header>
+				<div class="round-box primary"><span class="fa fa-pencil"></span></div>
+				<h3>Contact</h3>
+			</header>
+			<p>Severals way to contact me, so don't hesitate</p>
+			<div class="row">
+				<div class="col-md-6 contact-section">
+					<h2>Twitter</h2>
+					<a href="https://twitter.com/melanieberrut">@melanieberrut</a>
+				</div>
+
+				<div class="col-md-6 contact-section">
+					<h2>Facebook</h2>
+					<a href="https://www.facebook.com/melanie.berrut">melanie.berrut</a>
+				</div>
+
+				<div class="col-md-6 contact-section">
+					<h2>LinkedIn</h2>
+					<a href="https://www.linkedin.com/in/melanieberrut">/melanieberrut</a>
+				</div>
+
+				<div class="col-md-6 contact-section">
+					<h2>Email</h2>
+					<a href="mailto:melanieberrut.dev@gmail.com">melanieberrut.dev@gmail.com</a>
+				</div>
+
+			</div>
+		</section>
+	</div>
+</div>
+
+<div class="content-box bg-gray">
+<br><br>
+</div>

@@ -1,0 +1,35 @@
+.bg-position {
+	background-size: cover;
+	background-attachment: fixed;
+	position: static;
+	background-color:$divider-color;
+	background-repeat: no-repeat;
+	img {
+		padding: 0;
+	}
+}
+
+.main-giraffe {
+	background-image: url("../../images/giraffe-2.png");
+}
+
+%bg-white {
+	background-image: url("../../images/bg-white.png");
+}
+%bg-gray {
+	background-image: url("../../images/bg-gray.png");
+}
+
+
+@include media-breakpoint-down(md) {
+	.bg-position {
+		    // background-size: 250%;
+		    background-position: 21%;
+	}
+}
+@include media-breakpoint-up(md) {
+	.bg-position {
+		    // background-size: 250%;
+		    background-position: 0%;
+	}
+}

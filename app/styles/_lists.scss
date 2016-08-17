@@ -1,0 +1,64 @@
+.tools {
+	li {
+		display: inline-block;
+		padding: 10px 20px;
+		img {
+			width: 40px;
+		}
+	}
+}
+
+.clients {
+	li {
+		display: inline-flex;
+		margin: 10px 0;
+	}
+	a {
+		display: block;
+		.name {
+			margin-top: 15px;
+			min-height: 40px;
+			display: block;
+		}
+	}
+}
+
+.contact-section {
+	margin: 10px 0 ;
+}
+
+@include media-breakpoint-up(xl) {
+	.clients {
+		li {
+			margin: 0 0.7%;
+			width: 11%;
+		}
+	}
+}
+@include media-breakpoint-down(md) {
+	.clients {
+		li {
+			width: 25%;
+		}
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.clients {
+		li {
+			width: 50%;
+			
+		}
+	}
+	.navbar-mobile {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.menu-mobile {
+		li {
+			margin: 10px 0;
+			@include clearfix();
+		}
+	}
+}
+

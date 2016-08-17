@@ -1,0 +1,79 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	background: $divider-color;
+}
+
+
+// Colors Placeholders
+
+%dark-primary {
+	color: $primary-color-dark;
+}
+%primary {
+	color: $primary-color;
+}
+%light-primary {
+	color: $primary-color-light;
+}
+
+
+// Link placeholder
+
+%link {
+	color: $accent-color;
+	text-decoration: none;
+	padding: 3px 6px;
+	border-radius: 4px;
+	&:hover {
+		text-decoration: underline;
+		background: $primary-color;
+		color: $primary-text-color;
+	}
+}
+
+%active-link {
+	color: $accent-color;
+	font-weight: 800;
+}
+
+
+// Customs
+.media-heading {
+	@extend %dark-primary;
+	font-size: $font-size-base;
+}
+
+a {
+	@extend %link;
+}
+
+li {
+	a {
+		@extend %link;
+	}
+	&.active {
+		@extend %active-link 
+	}
+}
+
+.txt-accent-1 {
+	@extend %os-bold;
+	@extend %dark-primary;
+	font-size: $font-resp-large;
+}
+
+.txt-accent-2 {
+	@extend %os-bold;
+	@extend %primary;
+	font-size: ($font-resp-large + 3);
+}
+
+
+@include media-breakpoint-down(xs) {
+	.txt-accent-1 {
+		font-size: 30px;
+	}
+	.txt-accent-2 {
+		font-size: 40px;
+	}
+}
